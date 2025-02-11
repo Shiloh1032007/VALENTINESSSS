@@ -6,10 +6,10 @@ function selectOption(option) {
             displayCatHeart();
         });
     } else if (option === 'no') {
-        document.getElementById('no-button').innertext= 'nooo you has to be My Valentine Cookie'
+        document.getElementById('no-button').innertext= 'nooo you has to be My Valentine Cookie';
         var yesButton= document.getElementById('yes-button');
-        var currentFontSize= window.getComputedStyle(yesbutton). getPropertyValue('font-size');
-        var newSize= parseFloat(currentFontSize) *2;
+        var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
+        var newSize = parseFloat(currentFontSize) *2;
         yesButton.style.fontSize = newSize + 'px';
     } else{
         alert('THAT IS NOT AN OPTION COOKIE CONCENTRATE!!');
