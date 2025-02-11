@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color:#FFC1CC;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#image-container {
+
+}
+
+#question {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+
+#options {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: medium;
+    font-family: 'Sacramento', cursive;
+    background-color: #F4C2C2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
