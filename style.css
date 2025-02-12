@@ -18,7 +18,7 @@ body {
 }
 
 #question {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Playfair Display';
     font-size: 60px;
 }
 
@@ -30,7 +30,7 @@ button {
     padding: 10px 20px;
     margin: 0 10px;
     font-size: 26px;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Playfair Display';
     background-color: #F4C2C2;
     color: white;
     border: none;
