@@ -54,4 +54,4 @@ function displayCatHeart() {
     };
 }
 
-displayCat();
+displayPanda();
