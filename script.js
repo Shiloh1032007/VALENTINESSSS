@@ -32,13 +32,13 @@ function flashRainbowColors(callback) {
     }, 2000);
 }
 
-function displayCat() {
+function displayPanda() {
     var imageContainer= document.getElementById('image-container');
-    var catImage= new Image();
-    catImage.src= 'Panda.gif'
-    catImage.alt= 'Panda';
-    catImage.onload = function() {
-        imageContainer.appendChild(catImage);
+    var pandaImage= new Image();
+    pandaImage.src= 'Panda.gif'
+    pandaImage.alt= 'Panda';
+    pandaImage.onload = function() {
+        imageContainer.appendChild(pandaImage);
     };
 }
 
